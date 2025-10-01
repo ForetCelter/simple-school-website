@@ -19,8 +19,24 @@
   }
 }
 
+@font-face {
+  font-family: "Satoshi";
+  src: url("/fonts/Satoshi-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("/fonts/Satoshi-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
-  background: var(--background);
+  @apply bg-gradient-to-br from-gray-100 to-gray-200 min-h-screen;
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Satoshi", sans-serif;
 }
