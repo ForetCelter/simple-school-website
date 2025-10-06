@@ -6,10 +6,10 @@ import { FaHeart , FaBookReader , FaBookOpen , FaBook } from "react-icons/fa";
 export default function Dashboard() {
   return (
     <div className="min-h-screen text-black">
-      <nav className="bg-red-600 shadow-xl p-4 flex justify-between items-center">
-        <h1 className="font-bold text-xl text-white">SMK TELKOM MAKASSAR</h1>
+      <nav className="p-4 flex justify-between items-center">
+        <h1 className="font-bold text-xl">SMK TELKOM MAKASSAR</h1>
         <div className="flex items-center gap-2">
-          <span className="font-bold text-white">OKTAVIANTO</span>
+          <span className="font-bold">OKTAVIANTO</span>
           <div className="w-10 h-10 bg-gray-300 rounded-full"></div>
         </div>
       </nav>
@@ -18,7 +18,7 @@ export default function Dashboard() {
         <div className="col-span-9 flex flex-col gap-6">
           <div className="flex">
             <div className="bg-gray-50 rounded-lg shadow-lg flex-none">
-              <div className="w-full bg-blue-50 p-1 rounded-sm flex justify-between items-center">
+              <div className="w-full bg-gray-200 p-1 rounded-sm flex justify-between items-center">
                 <h1 className="text-lg pl-2 font-bold">Jurnal Mengajar</h1>
                 <div className="grid grid-cols-2 gap-4">
                   <input
@@ -98,7 +98,7 @@ export default function Dashboard() {
 
           <div className="grid grid-cols-3 grid-rows-1 gap-6 h-[500px]">
             <div className="bg-gray-50 pb-6 rounded-xl shadow-2xl col-span-2 h-full flex flex-col">
-              <div className="w-full bg-blue-50 mb-2 rounded-sm flex justify-start items-center ">
+              <div className="w-full bg-gray-200 mb-2 rounded-sm flex justify-start items-center ">
                 <h2 className="font-bold text-lg p-2">News</h2>
               </div>
               <div className="flex gap-6 items-center justify-center flex-1">
@@ -146,7 +146,7 @@ export default function Dashboard() {
             </div>
 
             <div className="bg-gray-50 pb-4 rounded-xl shadow-2xl h-full">
-              <div className="w-full bg-blue-50 mb-2 rounded-sm flex justify-start items-center ">
+              <div className="w-full bg-gray-200 mb-2 rounded-sm flex justify-start items-center ">
                 <h2 className="font-bold text-lg p-2">Aplikasi</h2>
               </div>
               <div className="flex justify-center items-center">
@@ -177,7 +177,7 @@ export default function Dashboard() {
         </div>
 
         <div className="col-span-3 bg-white rounded-xl shadow-xl pb-4 flex flex-col">
-          <div className="w-full bg-blue-50 mb-2 rounded-sm flex justify-start items-center ">
+          <div className="w-full bg-gray-200 mb-2 rounded-sm flex justify-start items-center ">
             <h2 className="font-bold text-lg p-2">Sapa Guru</h2>
           </div>
           <div className="flex-1 overflow-y-auto space-y-4 p-2">
